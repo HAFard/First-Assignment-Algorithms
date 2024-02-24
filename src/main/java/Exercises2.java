@@ -48,9 +48,56 @@ public class Exercises2 {
     Given a roman numeral, convert it to an integer.
     */
 
-    public int romanToInt(String s) {
-        // TODO
-        return 0;
+    public static int romanToInt(String s) {
+        int IntVal = 0 ;
+        String currentChar = "";
+
+        for (int i = 1 ; i <= s.length() ; i++ )
+        {
+
+            currentChar = s.substring(i-1 , i);
+
+            switch (currentChar)
+            {
+                case "I" :
+                    if (i<=s.length()-1)
+                    {
+                        if (s.substring(i,i+1).equals("V") || s.substring(i,i+1).equals("X")) {
+                            IntVal -= 1;
+                            break;
+                        }
+                    }
+                    IntVal += 1;
+                    break;
+                case "V" : IntVal += 5 ;break;
+                case "X" :
+                    if (i<=s.length()-1)
+                    {
+                        if (s.substring(i,i+1).equals("L") || s.substring(i,i+1).equals("C")) {
+                            IntVal -= 10;
+                            break;
+                        }
+                    }
+                    IntVal += 10;
+                    break;
+                case "L" : IntVal += 50 ;break;
+                case "C" :
+                    if (i<=s.length()-1)
+                    {
+                        if (s.substring(i,i+1).equals("D") || s.substring(i,i+1).equals("M")) {
+                            IntVal -= 100;
+                            break;
+                        }
+                    }
+                    IntVal += 100;
+                    break;
+                case "D" : IntVal += 500 ;break;
+                case "M" : IntVal += 1000 ;break;
+                default: IntVal += 0 ;break;
+            }
+        }
+
+        return IntVal;
     }
 
     /*
@@ -64,6 +111,6 @@ public class Exercises2 {
     }
 
     public static void main(String[] args) {
-        // test your code here!
+        System.out.println(romanToInt("III"));
     }
 }
