@@ -31,8 +31,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Exercises2.executor": "Run",
+    "JUnit.Test1.twoSumTest1.executor": "Run",
+    "JUnit.Test2.executor": "Run",
     "JUnit.Test2.romanToIntTest1.executor": "Run",
     "JUnit.Test2.romanToIntTest2.executor": "Run",
+    "JUnit.Test2.romanToIntTest3.executor": "Run",
+    "JUnit.Test2.romanToIntTest4.executor": "Run",
+    "JUnit.Test2.romanToIntTest5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -41,42 +46,41 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Test2">
-    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Test1">
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second-Assignment-Algorithms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.romanToIntTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.twoSumTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second-Assignment-Algorithms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="romanToIntTest2" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="twoSumTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.romanToIntTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.twoSumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second-Assignment-Algorithms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="romanToIntTest3" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="twoSumTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.romanToIntTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second-Assignment-Algorithms" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="romanToIntTest4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test1" />
+        <item itemvalue="JUnit.Test1.twoSumTest2" />
+        <item itemvalue="JUnit.Test1.twoSumTest1" />
         <item itemvalue="JUnit.Test2" />
         <item itemvalue="JUnit.Test2.romanToIntTest5" />
-        <item itemvalue="JUnit.Test2.romanToIntTest4" />
-        <item itemvalue="JUnit.Test2.romanToIntTest3" />
-        <item itemvalue="JUnit.Test2.romanToIntTest2" />
       </list>
     </recent_temporary>
   </component>
