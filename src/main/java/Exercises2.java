@@ -13,7 +13,7 @@ public class Exercises2 {
     You can return the answer in any order.
     */
 
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
 
         int[] indexes = new int[2] ;
 
@@ -126,6 +126,9 @@ public class Exercises2 {
     }
 
     public static void main(String[] args) {
+        int[] nums = {3,4,8,5,7};
+        int[] index = twoSum(nums,7);
         System.out.println(romanToInt("III"));
+        System.out.printf("%d %d",index[0],index[1]);
     }
 }
