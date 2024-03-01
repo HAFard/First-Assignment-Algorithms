@@ -40,9 +40,10 @@
     "JUnit.Test2.romanToIntTest3.executor": "Run",
     "JUnit.Test2.romanToIntTest4.executor": "Run",
     "JUnit.Test2.romanToIntTest5.executor": "Run",
+    "JUnit.Test3.permuteTest1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "0ec8c7e5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/H.A.Fard/Desktop/SBU/4022/AP/CAs/First-Assignment-Algorithms",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -85,11 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3.permuteTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second-Assignment-Algorithms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="permuteTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,10 +99,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Exercises2" />
+        <item itemvalue="JUnit.Test3.permuteTest1" />
         <item itemvalue="JUnit.Test1" />
         <item itemvalue="JUnit.Test1.twoSumTest2" />
         <item itemvalue="JUnit.Test1.twoSumTest1" />
-        <item itemvalue="JUnit.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -121,20 +123,5 @@
       <updated>1708492946192</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Exercises2.java</url>
-          <line>127</line>
-          <properties class="Exercises2" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

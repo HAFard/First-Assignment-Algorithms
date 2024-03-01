@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 public class Exercises2 {
 
@@ -120,15 +119,56 @@ public class Exercises2 {
     You can return the answer in any order.
     */
 
-    public List<List<Integer>> permute(int[] nums) {
-        // TODO
-        return null;
+    public static List<List<Integer>> permute(int[] nums) {
+
+        List<List<Integer>> allPermutation = new ArrayList<>();
+        List<Integer> newNums = new ArrayList<>();
+
+        //copy nums array to a list of integers
+        for (int i = 0; i < nums.length; i++) {
+            newNums.add(nums[i]);
+        }
+
+
+        int[] indexes = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            indexes[i] = 0;
+        }
+
+        allPermutation.add(newNums);
+
+        int i = 0;
+        while (i < nums.length) {
+            if (indexes[i] < i) {
+                if (i % 2 == 0){
+                    swap(newNums, 0 , i);
+                }
+                else swap(newNums, indexes[i] , i);
+
+                allPermutation.add(newNums);
+                indexes[i]++;
+                i = 0;
+            }
+            else {
+                indexes[i] = 0;
+                i++;
+            }
+        }
+
+        return allPermutation;
+    }
+
+    private static void swap(List<Integer> elements, int firstIndex, int secondIndex) {
+        int tmp = elements.get(firstIndex);
+        elements.set(firstIndex,elements.get(secondIndex)) ;
+        elements.set(secondIndex,tmp) ;
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,4,8,5,7};
+        int[] nums = {3,4,8};
         int[] index = twoSum(nums,7);
         System.out.println(romanToInt("III"));
         System.out.printf("%d %d",index[0],index[1]);
+        System.out.println(permute(nums));
     }
 }
